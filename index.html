@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChronoVerse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="language-screen" class="centered">
+        <h1>ChronoVerse</h1>
+        <p id="choose-language">Choose your language / Выберите язык</p>
+        <button onclick="setLanguage('en')">English</button>
+        <button onclick="setLanguage('ru')">Русский</button>
+    </div>
+    <div id="main-interface" style="display:none;">
+        <header>
+            <h2 id="main-title"></h2>
+        </header>
+        <main>
+            <p id="main-description"></p>
+            <!-- Здесь будет основной интерфейс симуляции -->
+        </main>
+    </div>
+    <script src="lang.js"></script>
+</body>
+</html>
